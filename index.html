@@ -15,7 +15,7 @@ referrerpolicy="no-referrer" />
 
 </head>
 <body>
-  <!-- <header class="header">
+  <header class="header">
     <div class="container header-container">
 <nav class="header-nav">
         <a href="./index.html" class="header-logo">Web<span class="header-logo-text">Studio</span></a>
@@ -31,8 +31,61 @@ referrerpolicy="no-referrer" />
     <li class="header-address-item"><a href="tel:+110001111111" class="header-address-link">+11 (000) 111-11-11</a></li>
 </ul>
 </address>
+<button type="button" class="menu-open-btn"><svg class="menu-btn-icon" width="24" height="24">
+  <use href="./images/icons.svg#icon-burrger"></use>
+</svg></button>
 </div>
-    </header>   -->
+<div class="mob-menu">
+  <div>
+  <button type="button" class="mob-btn">
+    <svg class="mob-btn-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav>
+    <ul class="mob-menu-list">
+      <li class="mob-menu-item"><a href="./index.html" class="mob-menu-link">Studio</a></li>
+      <li class="mob-menu-item"><a href="" class="mob-menu-link">Portfolio</a></li>
+      <li class="mob-menu-item"><a href="" class="mob-menu-link">Contacts</a></li>
+  </ul>
+  <ul class="mob-address-list">
+    <li class="mob-address-item"><a href="tel:+110001111111" class="mob-address-link">+11 (000) 111-11-11</a></li>
+    <li class="mob-address-item"><a href="mailto:info@devstudio.com" class="mob-address-link">info@devstudio.com</a></li>
+    </ul>
+  </nav>
+  </div>
+    <ul class="mob-icon-list">
+      <li class="mob-icon-item">
+        <a href="" class="mob-icon-link">
+          <svg class="mob-icon-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-icon-item">
+          <a href="" class="mob-icon-link">
+            <svg class="mob-icon-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-icon-item">
+          <a href="" class="mob-icon-link">
+            <svg class="mob-icon-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-icon-item">
+          <a href="" class="mob-icon-link">
+            <svg class="mob-icon-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+       </ul> 
+      </div>
+    </header>  
     <main>
         <section class="hero">
             <div class="container">
@@ -395,7 +448,7 @@ referrerpolicy="no-referrer" />
         </div>
         </section>
     </main>    
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container footer-container">
         <div class="footer-logo">
         <a href="./index.html" class="footer-logo-link"> Web<span class="footer-logo-text">Studio</span></a>
@@ -449,8 +502,8 @@ referrerpolicy="no-referrer" />
   
         </div>
         </div>
-</footer> -->
-<div class="backdrop">
+</footer>
+<div class="backdrop is-open">
   <div class="modal">
     <button type="button" class="modal-btn">
       <svg class="modal-btn-icon" width="8" height="8">
@@ -515,9 +568,10 @@ referrerpolicy="no-referrer" />
             </use>
           </svg>
         </span>
-        I accept the terms and conditions of the 
+        <span>I accept the terms and conditions of the 
         <a href="" class="check-icon-text">Privacy Policy
         </a>
+      </span>
       </label>
     </div>
     <button type="submit" class="modal-btn-end">Send</button>
