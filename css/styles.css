@@ -920,7 +920,7 @@ margin-bottom: 8px;
 }
 
 
-.chcek-text{
+.chcek-text {
     /* display: block; */
     display: flex;
     justify-content: center;
@@ -1110,6 +1110,14 @@ margin-bottom: 8px;
     .footer-input-email {
         width: 264px;
     }
+
+    .modal {
+        width: 408px;
+        height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+
+
 }
 
 @media screen and (min-width: 1158px) {
